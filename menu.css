@@ -1,0 +1,99 @@
+/* decoracao */
+body {
+    margin: 0;
+    text-align: center;
+}
+/* animado */
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #ebc4eb;
+}
+.container-menus {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-transition: transform 300ms ease;
+            transition: -webkit-transform 300ms ease;
+    width: 200%;
+}
+/* hack android velho */
+body { -webkit-animation: bugfix infinite 1s; }
+@-webkit-keyframes bugfix {
+  from { padding: 0; }
+  to { padding: 0; }
+}
+
+.align-left{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.center{
+    text-align: center;
+    font-weight: bolder;
+}
+.center{
+    font-size: 26px;
+}
+p{
+    font-size: 20px;
+    line-height: 2.0;
+}
+.img30{
+    border-radius: 33%;
+    height: 90px;
+    border: 4px solid floralwhite;
+}
+
+nav a{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333333;
+}
+div .col, div .col-10{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333333;
+}
+figcaption{
+    margin-top: 6px;
+    margin-right: 10px;
+    text-align: right;
+    font-weight: bolder;
+}
+.navbar{
+    background-color: #dba8d1;
+}
+.navbar img{
+    background-color: #FFC9DD;
+    border-radius: 30%;
+    border: #CC648A 2px dashed;
+}
+
+.navbar img:hover{
+    background-color: #FFC9DD;
+    border-radius: 30%;
+    border: #CC648C 2px solid;
+}
+
+figure img{
+    min-width: 280px;
+}
+a{
+    color: #333333;
+}
+a:hover { 
+  font-size: 130%;
+  color: #333333;
+  text-decoration: none;
+
+}
+hr{
+    color: #ff2d55;
+    border: 1px solid;
+}
+.item-menu{
+    font-size: 16px !important;
+    text-align: center;
+    line-height: 1.2;
+}
